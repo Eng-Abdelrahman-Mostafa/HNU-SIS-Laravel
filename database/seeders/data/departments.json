@@ -1,0 +1,27 @@
+[
+    {
+        "department_code": "CS",
+        "department_prefix": 101,
+        "department_name": "Computer Science"
+    },
+    {
+        "department_code": "MATH",
+        "department_prefix": 201,
+        "department_name": "Mathematics"
+    },
+    {
+        "department_code": "ENG",
+        "department_prefix": 301,
+        "department_name": "English"
+    },
+    {
+        "department_code": "PHY",
+        "department_prefix": 401,
+        "department_name": "Physics"
+    },
+    {
+        "department_code": "IS",
+        "department_prefix": 501,
+        "department_name": "Information Systems"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "instructor_code": "INS001",
+        "first_name": "John",
+        "last_name": "Smith",
+        "full_name_arabic": "جون سميث",
+        "email": "john.smith@university.edu",
+        "phone": "555-0101",
+        "department_code": "CS",
+        "title": "Dr.",
+        "status": "active"
+    },
+    {
+        "instructor_code": "INS002",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "full_name_arabic": "سارة جونسون",
+        "email": "sarah.johnson@university.edu",
+        "phone": "555-0102",
+        "department_code": "CS",
+        "title": "Prof.",
+        "status": "active"
+    },
+    {
+        "instructor_code": "INS003",
+        "first_name": "Michael",
+        "last_name": "Davis",
+        "full_name_arabic": "مايكل ديفيس",
+        "email": "michael.davis@university.edu",
+        "phone": "555-0103",
+        "department_code": "MATH",
+        "title": "Dr.",
+        "status": "active"
+    },
+    {
+        "instructor_code": "INS004",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "full_name_arabic": "إيميلي براون",
+        "email": "emily.brown@university.edu",
+        "phone": "555-0104",
+        "department_code": "ENG",
+        "title": "Lecturer",
+        "status": "active"
+    },
+    {
+        "instructor_code": "INS005",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "full_name_arabic": "ديفيد ويلسون",
+        "email": "david.wilson@university.edu",
+        "phone": "555-0105",
+        "department_code": "PHY",
+        "title": "Dr.",
+        "status": "active"
+    },
+    {
+        "instructor_code": "INS006",
+        "first_name": "Lisa",
+        "last_name": "Anderson",
+        "full_name_arabic": "ليزا أندرسون",
+        "email": "lisa.anderson@university.edu",
+        "phone": "555-0106",
+        "department_code": "IS",
+        "title": "Prof.",
+        "status": "active"
+    }
+]

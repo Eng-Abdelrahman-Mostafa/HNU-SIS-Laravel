@@ -1,0 +1,110 @@
+[
+    {
+        "department_code": "CS",
+        "course_code": "CS101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "MATH101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "ENG101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "PHY101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS102",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "MATH102",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "PHY102",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "ENG102",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS201",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS202",
+        "level_number": 3,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "MATH201",
+        "level_number": 3,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS301",
+        "level_number": 3,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS302",
+        "level_number": 4,
+        "requirement_type": "elective"
+    },
+    {
+        "department_code": "CS",
+        "course_code": "CS401",
+        "level_number": 4,
+        "requirement_type": "elective"
+    },
+    {
+        "department_code": "IS",
+        "course_code": "IS101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "IS",
+        "course_code": "ENG101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "IS",
+        "course_code": "MATH101",
+        "level_number": 1,
+        "requirement_type": "mandatory"
+    },
+    {
+        "department_code": "IS",
+        "course_code": "IS201",
+        "level_number": 2,
+        "requirement_type": "mandatory"
+    }
+]

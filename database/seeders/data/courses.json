@@ -1,0 +1,130 @@
+[
+    {
+        "course_code": "CS101",
+        "course_name": "Introduction to Computer Science",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "CS102",
+        "course_name": "Data Structures and Algorithms",
+        "credit_hours": 4,
+        "department_code": "CS",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "CS201",
+        "course_name": "Database Systems",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "M",
+        "category": "COM"
+    },
+    {
+        "course_code": "CS202",
+        "course_name": "Operating Systems",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "M",
+        "category": "COM"
+    },
+    {
+        "course_code": "CS301",
+        "course_name": "Software Engineering",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "M",
+        "category": "DSC"
+    },
+    {
+        "course_code": "CS302",
+        "course_name": "Machine Learning",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "E",
+        "category": "DSC"
+    },
+    {
+        "course_code": "CS401",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 3,
+        "department_code": "CS",
+        "course_type": "E",
+        "category": "DSC"
+    },
+    {
+        "course_code": "MATH101",
+        "course_name": "Calculus I",
+        "credit_hours": 3,
+        "department_code": "MATH",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "MATH102",
+        "course_name": "Calculus II",
+        "credit_hours": 3,
+        "department_code": "MATH",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "MATH201",
+        "course_name": "Linear Algebra",
+        "credit_hours": 3,
+        "department_code": "MATH",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "ENG101",
+        "course_name": "English Composition",
+        "credit_hours": 3,
+        "department_code": "ENG",
+        "course_type": "M",
+        "category": "GEN"
+    },
+    {
+        "course_code": "ENG102",
+        "course_name": "Technical Writing",
+        "credit_hours": 2,
+        "department_code": "ENG",
+        "course_type": "M",
+        "category": "GEN"
+    },
+    {
+        "course_code": "PHY101",
+        "course_name": "Physics I",
+        "credit_hours": 3,
+        "department_code": "PHY",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "PHY102",
+        "course_name": "Physics II",
+        "credit_hours": 3,
+        "department_code": "PHY",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "IS101",
+        "course_name": "Information Systems Fundamentals",
+        "credit_hours": 3,
+        "department_code": "IS",
+        "course_type": "M",
+        "category": "BAS"
+    },
+    {
+        "course_code": "IS201",
+        "course_name": "Systems Analysis and Design",
+        "credit_hours": 3,
+        "department_code": "IS",
+        "course_type": "M",
+        "category": "COM"
+    }
+]

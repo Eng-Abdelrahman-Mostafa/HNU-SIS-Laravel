@@ -1,0 +1,121 @@
+[
+    {
+        "course_code": "CS101",
+        "instructor_code": "INS001",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 35
+    },
+    {
+        "course_code": "CS101",
+        "instructor_code": "INS002",
+        "semester_code": "FALL2024",
+        "section_number": "B",
+        "student_count": 32
+    },
+    {
+        "course_code": "CS102",
+        "instructor_code": "INS001",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 28
+    },
+    {
+        "course_code": "CS201",
+        "instructor_code": "INS002",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 25
+    },
+    {
+        "course_code": "CS202",
+        "instructor_code": "INS001",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 22
+    },
+    {
+        "course_code": "CS301",
+        "instructor_code": "INS002",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 20
+    },
+    {
+        "course_code": "CS302",
+        "instructor_code": "INS001",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 18
+    },
+    {
+        "course_code": "CS401",
+        "instructor_code": "INS002",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 15
+    },
+    {
+        "course_code": "MATH101",
+        "instructor_code": "INS003",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 40
+    },
+    {
+        "course_code": "MATH102",
+        "instructor_code": "INS003",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 38
+    },
+    {
+        "course_code": "MATH201",
+        "instructor_code": "INS003",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 30
+    },
+    {
+        "course_code": "ENG101",
+        "instructor_code": "INS004",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 45
+    },
+    {
+        "course_code": "ENG102",
+        "instructor_code": "INS004",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 42
+    },
+    {
+        "course_code": "PHY101",
+        "instructor_code": "INS005",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 35
+    },
+    {
+        "course_code": "PHY102",
+        "instructor_code": "INS005",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 33
+    },
+    {
+        "course_code": "IS101",
+        "instructor_code": "INS006",
+        "semester_code": "FALL2024",
+        "section_number": "A",
+        "student_count": 30
+    },
+    {
+        "course_code": "IS201",
+        "instructor_code": "INS006",
+        "semester_code": "SPRING2025",
+        "section_number": "A",
+        "student_count": 25
+    }
+]

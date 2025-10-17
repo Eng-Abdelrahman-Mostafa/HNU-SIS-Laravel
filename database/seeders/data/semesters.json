@@ -1,0 +1,37 @@
+[
+    {
+        "semester_code": "FALL2023",
+        "semester_name": "FALL",
+        "year": 2023,
+        "start_date": "2023-09-01",
+        "end_date": "2023-12-31"
+    },
+    {
+        "semester_code": "SPRING2024",
+        "semester_name": "SPRING",
+        "year": 2024,
+        "start_date": "2024-02-01",
+        "end_date": "2024-05-31"
+    },
+    {
+        "semester_code": "Summer2024",
+        "semester_name": "Summer",
+        "year": 2024,
+        "start_date": "2024-06-01",
+        "end_date": "2024-08-31"
+    },
+    {
+        "semester_code": "FALL2024",
+        "semester_name": "FALL",
+        "year": 2024,
+        "start_date": "2024-09-01",
+        "end_date": "2024-12-31"
+    },
+    {
+        "semester_code": "SPRING2025",
+        "semester_name": "SPRING",
+        "year": 2025,
+        "start_date": "2025-02-01",
+        "end_date": "2025-05-31"
+    }
+]

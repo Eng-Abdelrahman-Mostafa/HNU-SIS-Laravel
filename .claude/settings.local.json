@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python:*)",
       "Bash(pip install:*)",
-      "Bash(php artisan make:model:*)"
+      "Bash(php artisan make:model:*)",
+      "Bash(mkdir:*)",
+      "Bash(php artisan:*)"
     ],
     "deny": [],
     "ask": []

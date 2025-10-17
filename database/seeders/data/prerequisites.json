@@ -1,0 +1,50 @@
+[
+    {
+        "course_code": "CS102",
+        "prerequisite_course_code": "CS101"
+    },
+    {
+        "course_code": "CS201",
+        "prerequisite_course_code": "CS102"
+    },
+    {
+        "course_code": "CS202",
+        "prerequisite_course_code": "CS101"
+    },
+    {
+        "course_code": "CS301",
+        "prerequisite_course_code": "CS201"
+    },
+    {
+        "course_code": "CS302",
+        "prerequisite_course_code": "CS102"
+    },
+    {
+        "course_code": "CS302",
+        "prerequisite_course_code": "MATH201"
+    },
+    {
+        "course_code": "CS401",
+        "prerequisite_course_code": "CS302"
+    },
+    {
+        "course_code": "MATH102",
+        "prerequisite_course_code": "MATH101"
+    },
+    {
+        "course_code": "MATH201",
+        "prerequisite_course_code": "MATH102"
+    },
+    {
+        "course_code": "PHY102",
+        "prerequisite_course_code": "PHY101"
+    },
+    {
+        "course_code": "IS201",
+        "prerequisite_course_code": "IS101"
+    },
+    {
+        "course_code": "ENG102",
+        "prerequisite_course_code": "ENG101"
+    }
+]

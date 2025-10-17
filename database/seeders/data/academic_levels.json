@@ -1,0 +1,26 @@
+[
+    {
+        "level_name": "Level 1",
+        "level_number": 1,
+        "min_credit_hours": 12,
+        "max_credit_hours": 18
+    },
+    {
+        "level_name": "Level 2",
+        "level_number": 2,
+        "min_credit_hours": 15,
+        "max_credit_hours": 19
+    },
+    {
+        "level_name": "Level 3",
+        "level_number": 3,
+        "min_credit_hours": 15,
+        "max_credit_hours": 19
+    },
+    {
+        "level_name": "Level 4",
+        "level_number": 4,
+        "min_credit_hours": 12,
+        "max_credit_hours": 18
+    }
+]
