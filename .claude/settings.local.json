@@ -5,7 +5,9 @@
       "Bash(pip install:*)",
       "Bash(php artisan make:model:*)",
       "Bash(mkdir:*)",
-      "Bash(php artisan:*)"
+      "Bash(php artisan:*)",
+      "WebSearch",
+      "Bash(composer require:*)"
     ],
     "deny": [],
     "ask": []
