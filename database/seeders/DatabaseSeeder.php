@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         // Seed in order based on dependencies
         $this->call([
+            PermissionsAndRolesSeeder::class,
             DepartmentsSeeder::class,
             AcademicLevelsSeeder::class,
             GradeScalesSeeder::class,
