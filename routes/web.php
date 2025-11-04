@@ -31,17 +31,20 @@ Route::middleware(['auth:student'])->group(function () {
 
 
 // --- ADMIN Authentication Routes ---
-Route::prefix('admin')->name('admin.')->group(function () {
-    Route::middleware('guest:admin')->group(function () {
-        Route::get('/login', [AdminLoginController::class, 'showLoginForm'])->name('login.form');
-        Route::post('/login', [AdminLoginController::class, 'login'])->name('login.post');
-    });
-    Route::post('/logout', [AdminLoginController::class, 'logout'])->name('logout');
-});
+// COMMENTED OUT: Filament handles its own authentication
+// Route::prefix('admin')->name('admin.')->group(function () {
+//     Route::middleware('guest:admin')->group(function () {
+//         Route::get('/login', [AdminLoginController::class, 'showLoginForm'])->name('login.form');
+//         Route::post('/login', [AdminLoginController::class, 'login'])->name('login.post');
+//     });
+//     Route::post('/logout', [AdminLoginController::class, 'logout'])->name('logout');
+// });
 
 
 // --- ADMIN Authenticated Routes ---
-Route::prefix('admin')->name('admin.')->middleware('auth:admin')->group(function () {
+// NOTE: These are custom admin routes separate from Filament
+// They use 'web' guard (same as Filament) and will be accessible within Filament panel
+Route::prefix('admin')->name('admin.')->middleware(['auth:web'])->group(function () {
 
     // Import/Export Page
     Route::get('/import', [ImportController::class, 'index'])->name('import.index');

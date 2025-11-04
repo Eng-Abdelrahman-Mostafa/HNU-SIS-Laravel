@@ -8,7 +8,8 @@
       "Bash(php artisan:*)",
       "WebSearch",
       "Bash(composer require:*)",
-      "Bash(php:*)"
+      "Bash(php:*)",
+      "Bash(php create_admin.php:*)"
     ],
     "deny": [],
     "ask": []
