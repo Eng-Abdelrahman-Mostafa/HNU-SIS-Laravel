@@ -16,11 +16,17 @@ class Semester extends Model
         'year',
         'start_date',
         'end_date',
+        'is_active',
+        'student_registeration_start_at',
+        'student_registeration_end_at',
     ];
 
     protected $casts = [
         'start_date' => 'date',
         'end_date' => 'date',
+        'is_active' => 'boolean',
+        'student_registeration_start_at' => 'datetime',
+        'student_registeration_end_at' => 'datetime',
     ];
 
     // Relationships

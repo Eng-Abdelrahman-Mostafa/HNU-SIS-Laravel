@@ -21,7 +21,12 @@
       "mcp__chrome-devtools__wait_for",
       "mcp__chrome-devtools__list_console_messages",
       "mcp__chrome-devtools__take_screenshot",
-      "mcp__chrome-devtools__close_page"
+      "mcp__chrome-devtools__close_page",
+      "Bash(timeout 5 php artisan:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:filamentphp.com)",
+      "Bash(timeout 10 php artisan serve:*)",
+      "Bash(composer dump-autoload:*)"
     ],
     "deny": [],
     "ask": []
