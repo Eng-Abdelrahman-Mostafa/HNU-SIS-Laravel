@@ -18,6 +18,13 @@ return [
         'grade_scale_information' => 'Grade Scale Information',
         'semester_information' => 'Semester Information',
         'student_registration_information' => 'Student Registration Information',
+        'instructor_information' => 'Instructor Information',
+        'course_information' => 'Course Information',
+        'student_information' => 'Student Information',
+        'prerequisite_information' => 'Prerequisite Information',
+        'program_requirement_information' => 'Program Requirement Information',
+        'assignment_information' => 'Assignment Information',
+        'enrollment_information' => 'Enrollment Information',
     ],
 
     // Descriptions
@@ -27,6 +34,13 @@ return [
         'grade_scale_info' => 'Set up grading scales with letter grades and point values',
         'semester_info' => 'Create and manage academic semesters',
         'student_registration_info' => 'Set the student registration period and semester status',
+        'instructor_info' => 'Fill in the instructor details including contact information and status',
+        'course_info' => 'Enter course information including code, name, and credit hours',
+        'student_info' => 'Fill in the student details and academic information',
+        'prerequisite_info' => 'Define which courses are prerequisites for other courses',
+        'program_requirement_info' => 'Set up program requirements by department and academic level',
+        'assignment_info' => 'Assign instructors to courses for a specific semester',
+        'enrollment_info' => 'Manage student enrollments in courses',
     ],
 
     // Field Labels
@@ -34,6 +48,7 @@ return [
         'department_code' => 'Department Code',
         'department_prefix' => 'Department Prefix',
         'department_name' => 'Department Name',
+        'department' => 'Department',
         'students_count' => 'Number of Students',
         'courses_count' => 'Number of Courses',
         'instructors_count' => 'Number of Instructors',
@@ -48,6 +63,7 @@ return [
         'status' => 'Status',
         'semester_code' => 'Semester Code',
         'semester_name' => 'Semester Name',
+        'semester' => 'Semester',
         'year' => 'Year',
         'start_date' => 'Start Date',
         'end_date' => 'End Date',
@@ -56,6 +72,46 @@ return [
         'is_active' => 'Is Active',
         'student_registeration_start_at' => 'Student Registration Start',
         'student_registeration_end_at' => 'Student Registration End',
+        // Instructor Fields
+        'instructor' => 'Instructor',
+        'instructor_code' => 'Instructor Code',
+        'instructor_name' => 'Instructor Name',
+        'first_name' => 'First Name',
+        'last_name' => 'Last Name',
+        'full_name_arabic' => 'Full Name (Arabic)',
+        'email' => 'Email',
+        'phone' => 'Phone',
+        'title' => 'Title',
+        // Course Fields
+        'course' => 'Course',
+        'course_code' => 'Course Code',
+        'course_name' => 'Course Name',
+        'credit_hours' => 'Credit Hours',
+        'course_type' => 'Course Type',
+        'category' => 'Category',
+        'prerequisites_count' => 'Number of Prerequisites',
+        // Student Fields
+        'student' => 'Student',
+        'student_id' => 'Student ID',
+        'student_name' => 'Student Name',
+        'current_level' => 'Current Level',
+        'academic_level' => 'Academic Level',
+        'enrollment_date' => 'Enrollment Date',
+        'cgpa' => 'CGPA',
+        'credit_hours_completed' => 'Credit Hours Completed',
+        'credit_hours_in_progress' => 'Credit Hours In Progress',
+        'credit_hours_failed' => 'Credit Hours Failed',
+        // Prerequisite Fields
+        'prerequisite_course' => 'Prerequisite Course',
+        'prerequisite_code' => 'Prerequisite Code',
+        'prerequisite_name' => 'Prerequisite Name',
+        // Program Requirement Fields
+        'requirement_type' => 'Requirement Type',
+        // Assignment Fields
+        'section_number' => 'Section Number',
+        'student_count' => 'Student Count',
+        // Enrollment Fields
+        'is_retake' => 'Is Retake',
     ],
 
     // Helper Text
@@ -63,6 +119,7 @@ return [
         'department_code' => 'Enter a unique code for this department (e.g., CS)',
         'department_prefix' => 'Enter the course prefix for this department (e.g., CSC)',
         'department_name' => 'Enter the full name of the department',
+        'department' => 'Select the department',
         'level_name' => 'Enter the name of the academic level',
         'level_number' => 'Enter the level sequence number',
         'min_credit_hours' => 'Minimum credit hours for this level',
@@ -74,12 +131,52 @@ return [
         'status' => 'Enable or disable this grade scale',
         'semester_code' => 'Unique code for the semester (e.g., F2024)',
         'semester_name' => 'Full name of the semester (e.g., Fall 2024)',
+        'semester' => 'Select the semester',
         'year' => 'Academic year',
         'start_date' => 'Date when the semester starts',
         'end_date' => 'Date when the semester ends',
         'is_active' => 'Enable this semester for student operations',
         'student_registeration_start_at' => 'Date and time when students can start registering',
         'student_registeration_end_at' => 'Date and time when student registration closes',
+        // Instructor Helper Text
+        'instructor_code' => 'Enter a unique code for this instructor',
+        'instructor' => 'Select the instructor',
+        'first_name' => 'Enter the instructor\'s first name',
+        'last_name' => 'Enter the instructor\'s last name',
+        'full_name_arabic' => 'Enter the full name in Arabic',
+        'email' => 'Enter a valid email address',
+        'phone' => 'Enter the phone number',
+        'instructor_title' => 'Enter the instructor\'s academic title',
+        'instructor_status' => 'Select the instructor\'s current status',
+        // Course Helper Text
+        'course_code' => 'Enter a unique code for this course (e.g., CSC101)',
+        'course_name' => 'Enter the full name of the course',
+        'course' => 'Select the course',
+        'credit_hours' => 'Number of credit hours for this course',
+        'course_type' => 'Select the type of course',
+        'course_category' => 'Select the category of the course',
+        // Student Helper Text
+        'student_id' => 'Enter a unique ID for this student',
+        'student' => 'Select the student',
+        'current_level' => 'Select the student\'s current academic level',
+        'academic_level' => 'Select the academic level',
+        'enrollment_date' => 'Date when the student enrolled',
+        'cgpa' => 'Cumulative Grade Point Average (0.0 - 4.0)',
+        'credit_hours_completed' => 'Total credit hours completed',
+        'credit_hours_in_progress' => 'Credit hours currently in progress',
+        'credit_hours_failed' => 'Credit hours failed',
+        'student_status' => 'Select the student\'s current status',
+        // Prerequisite Helper Text
+        'prerequisite_course' => 'Select the main course',
+        'prerequisite_course_required' => 'Select the required prerequisite course',
+        // Program Requirement Helper Text
+        'requirement_type' => 'Select whether this course is mandatory or elective',
+        // Assignment Helper Text
+        'section_number' => 'Enter the section number',
+        'student_count' => 'Number of students in this section',
+        // Enrollment Helper Text
+        'enrollment_status' => 'Select the enrollment status',
+        'is_retake' => 'Check if this is a retake course',
     ],
 
     // Navigation
@@ -88,6 +185,14 @@ return [
         'academic_level' => 'Academic Levels',
         'grade_scale' => 'Grade Scales',
         'semester' => 'Semesters',
+    ],
+
+    // Navigation Groups
+    'navigation_groups' => [
+        'academic_structure' => 'Academic Structure',
+        'people' => 'People',
+        'course_management' => 'Course Management',
+        'operations' => 'Operations',
     ],
 
     // Page Titles
@@ -181,6 +286,51 @@ return [
         'edit' => 'Edit',
         'view' => 'View',
         'delete' => 'Delete',
+    ],
+
+    // Status Values
+    'status' => [
+        'active' => 'Active',
+        'inactive' => 'Inactive',
+        'on_leave' => 'On Leave',
+        'graduated' => 'Graduated',
+        'suspended' => 'Suspended',
+    ],
+
+    // Course Types
+    'course_type' => [
+        'theory' => 'Theory',
+        'practical' => 'Practical',
+        'mixed' => 'Mixed',
+        'M' => 'Mixed',
+        'E' => 'Elective',
+    ],
+
+    // Course Categories
+    'category' => [
+        'university_requirement' => 'University Requirement',
+        'college_requirement' => 'College Requirement',
+        'department_requirement' => 'Department Requirement',
+        'elective' => 'Elective',
+    ],
+
+    // Requirement Types
+    'requirement_type' => [
+        'mandatory' => 'Mandatory',
+        'elective' => 'Elective',
+    ],
+
+    // Enrollment Status
+    'enrollment_status' => [
+        'registered' => 'Registered',
+        'withdrawn' => 'Withdrawn',
+        'completed' => 'Completed',
+    ],
+
+    // Filter Labels
+    'filter' => [
+        'retake_only' => 'Retake Only',
+        'first_attempt' => 'First Attempt',
     ],
 
 ];

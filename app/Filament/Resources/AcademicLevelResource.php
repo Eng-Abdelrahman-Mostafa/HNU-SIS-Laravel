@@ -18,6 +18,11 @@ class AcademicLevelResource extends Resource
 {
     protected static ?string $model = AcademicLevel::class;
 
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament.navigation_groups.academic_structure');
+    }
+
     protected static ?int $navigationSort = 2;
 
     public static function getNavigationIcon(): string

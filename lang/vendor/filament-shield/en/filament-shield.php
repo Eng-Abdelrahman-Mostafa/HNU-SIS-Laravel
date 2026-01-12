@@ -80,4 +80,25 @@ return [
         'restore_any' => 'Restore Any',
         'replicate' => 'Replicate',
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Model Names (Resources)
+    |--------------------------------------------------------------------------
+    */
+
+    'model_names' => [
+        'User' => 'User',
+        'Department' => 'Department',
+        'AcademicLevel' => 'Academic Level',
+        'GradeScale' => 'Grade Scale',
+        'Semester' => 'Semester',
+        'Student' => 'Student',
+        'Instructor' => 'Instructor',
+        'Course' => 'Course',
+        'Prerequisite' => 'Prerequisite',
+        'ProgramRequirement' => 'Program Requirement',
+        'CourseInstructorAssignment' => 'Course Instructor Assignment',
+        'Enrollment' => 'Enrollment',
+    ],
 ];

@@ -17,6 +17,11 @@ class GradeScaleResource extends Resource
 {
     protected static ?string $model = GradeScale::class;
 
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament.navigation_groups.academic_structure');
+    }
+
     protected static ?int $navigationSort = 3;
 
     public static function getNavigationIcon(): string
