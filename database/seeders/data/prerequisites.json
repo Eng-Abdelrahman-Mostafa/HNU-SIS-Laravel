@@ -1,50 +1,286 @@
 [
     {
-        "course_code": "CS102",
-        "prerequisite_course_code": "CS101"
+        "course_code": "GEN102",
+        "prerequisite_code": "GEN101"
     },
     {
-        "course_code": "CS201",
-        "prerequisite_course_code": "CS102"
+        "course_code": "COM104",
+        "prerequisite_code": "BAS102"
     },
     {
-        "course_code": "CS202",
-        "prerequisite_course_code": "CS101"
+        "course_code": "COM103",
+        "prerequisite_code": "COM101"
     },
     {
-        "course_code": "CS301",
-        "prerequisite_course_code": "CS201"
+        "course_code": "BAS201",
+        "prerequisite_code": "BAS103"
     },
     {
-        "course_code": "CS302",
-        "prerequisite_course_code": "CS102"
+        "course_code": "COM202",
+        "prerequisite_code": "COM103"
     },
     {
-        "course_code": "CS302",
-        "prerequisite_course_code": "MATH201"
+        "course_code": "COM203",
+        "prerequisite_code": "COM102"
     },
     {
-        "course_code": "CS401",
-        "prerequisite_course_code": "CS302"
+        "course_code": "COM204",
+        "prerequisite_code": "COM101"
     },
     {
-        "course_code": "MATH102",
-        "prerequisite_course_code": "MATH101"
+        "course_code": "COM205",
+        "prerequisite_code": "COM103"
     },
     {
-        "course_code": "MATH201",
-        "prerequisite_course_code": "MATH102"
+        "course_code": "BAS202",
+        "prerequisite_code": "BAS104"
     },
     {
-        "course_code": "PHY102",
-        "prerequisite_course_code": "PHY101"
+        "course_code": "BAS204",
+        "prerequisite_code": "BAS102"
     },
     {
-        "course_code": "IS201",
-        "prerequisite_course_code": "IS101"
+        "course_code": "COM206",
+        "prerequisite_code": "COM102"
     },
     {
-        "course_code": "ENG102",
-        "prerequisite_course_code": "ENG101"
+        "course_code": "COM207",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "COM209",
+        "prerequisite_code": "COM204"
+    },
+    {
+        "course_code": "COM212",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "COM210",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "COM213",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "ROB301",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "ROB302",
+        "prerequisite_code": "COM205"
+    },
+    {
+        "course_code": "ROB303",
+        "prerequisite_code": "COM104"
+    },
+    {
+        "course_code": "ROB304",
+        "prerequisite_code": "COM205"
+    },
+    {
+        "course_code": "ROB305",
+        "prerequisite_code": "BAS102"
+    },
+    {
+        "course_code": "ROB312",
+        "prerequisite_code": "COM212"
+    },
+    {
+        "course_code": "ROB306",
+        "prerequisite_code": "COM202"
+    },
+    {
+        "course_code": "ROB307",
+        "prerequisite_code": "ROB302"
+    },
+    {
+        "course_code": "ROB308",
+        "prerequisite_code": "COM205"
+    },
+    {
+        "course_code": "ROB310",
+        "prerequisite_code": "ROB304"
+    },
+    {
+        "course_code": "ROB411",
+        "prerequisite_code": "ROB312"
+    },
+    {
+        "course_code": "ROB313",
+        "prerequisite_code": "COM204"
+    },
+    {
+        "course_code": "ROB401",
+        "prerequisite_code": "ROB303"
+    },
+    {
+        "course_code": "ROB402",
+        "prerequisite_code": "ROB310"
+    },
+    {
+        "course_code": "ROB405",
+        "prerequisite_code": "ROB306"
+    },
+    {
+        "course_code": "COM400",
+        "prerequisite_code": "COM206"
+    },
+    {
+        "course_code": "ROB311",
+        "prerequisite_code": "BAS102"
+    },
+    {
+        "course_code": "ROB403",
+        "prerequisite_code": "ROB304"
+    },
+    {
+        "course_code": "ROB404",
+        "prerequisite_code": "ROB401"
+    },
+    {
+        "course_code": "COM498",
+        "prerequisite_code": "COM400"
+    },
+    {
+        "course_code": "ROB413",
+        "prerequisite_code": "ROB405"
+    },
+    {
+        "course_code": "DSC301",
+        "prerequisite_code": "COM203"
+    },
+    {
+        "course_code": "DSC302",
+        "prerequisite_code": "COM203"
+    },
+    {
+        "course_code": "DSC303",
+        "prerequisite_code": "COM203"
+    },
+    {
+        "course_code": "DSC309",
+        "prerequisite_code": "COM205"
+    },
+    {
+        "course_code": "DSC311",
+        "prerequisite_code": "COM212"
+    },
+    {
+        "course_code": "DSC307",
+        "prerequisite_code": "BAS102"
+    },
+    {
+        "course_code": "DSC304",
+        "prerequisite_code": "DSC301"
+    },
+    {
+        "course_code": "DSC305",
+        "prerequisite_code": "DSC301"
+    },
+    {
+        "course_code": "DSC306",
+        "prerequisite_code": "COM210"
+    },
+    {
+        "course_code": "DSC312",
+        "prerequisite_code": "DSC309"
+    },
+    {
+        "course_code": "DSC313",
+        "prerequisite_code": "DSC303"
+    },
+    {
+        "course_code": "DSC308",
+        "prerequisite_code": "DSC301"
+    },
+    {
+        "course_code": "DSC401",
+        "prerequisite_code": "DSC305"
+    },
+    {
+        "course_code": "DSC402",
+        "prerequisite_code": "DSC307"
+    },
+    {
+        "course_code": "DSC404",
+        "prerequisite_code": "DSC301"
+    },
+    {
+        "course_code": "DSC411",
+        "prerequisite_code": "DSC312"
+    },
+    {
+        "course_code": "DSC412",
+        "prerequisite_code": "DSC307"
+    },
+    {
+        "course_code": "DSC403",
+        "prerequisite_code": "DSC401"
+    },
+    {
+        "course_code": "DSC405",
+        "prerequisite_code": "DSC402"
+    },
+    {
+        "course_code": "MMD308",
+        "prerequisite_code": "MMD303"
+    },
+    {
+        "course_code": "MMD309",
+        "prerequisite_code": "MMD303"
+    },
+    {
+        "course_code": "MMD306",
+        "prerequisite_code": "MMD307"
+    },
+    {
+        "course_code": "MMD315",
+        "prerequisite_code": "COM204"
+    },
+    {
+        "course_code": "MMD312",
+        "prerequisite_code": "COM210"
+    },
+    {
+        "course_code": "MMD410",
+        "prerequisite_code": "MMD307"
+    },
+    {
+        "course_code": "MMD402",
+        "prerequisite_code": "MMD309"
+    },
+    {
+        "course_code": "MMD403",
+        "prerequisite_code": "MMD309"
+    },
+    {
+        "course_code": "COM400",
+        "prerequisite_code": "COM206"
+    },
+    {
+        "course_code": "MMD414",
+        "prerequisite_code": "MMD309"
+    },
+    {
+        "course_code": "MMD404",
+        "prerequisite_code": "MMD309"
+    },
+    {
+        "course_code": "MMD407",
+        "prerequisite_code": "MMD402"
+    },
+    {
+        "course_code": "COM498",
+        "prerequisite_code": "COM400"
+    },
+    {
+        "course_code": "MMD409",
+        "prerequisite_code": "MMD402"
+    },
+    {
+        "course_code": "MMD408",
+        "prerequisite_code": "MMD402"
     }
 ]

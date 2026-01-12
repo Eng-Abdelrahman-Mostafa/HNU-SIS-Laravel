@@ -1,130 +1,706 @@
 [
     {
-        "course_code": "CS101",
-        "course_name": "Introduction to Computer Science",
+        "course_code": "GEN101",
+        "course_name": "English I",
+        "credit_hours": 2,
+        "department_code": "GEN",
+        "course_type": "M",
+        "level": 1
+    },
+    {
+        "course_code": "GEN103",
+        "course_name": "Social issues and anti-corruption",
+        "credit_hours": 2,
+        "department_code": "GEN",
+        "course_type": "M",
+        "level": 1
+    },
+    {
+        "course_code": "BAS101",
+        "course_name": "Mathematics",
         "credit_hours": 3,
-        "department_code": "CS",
+        "department_code": "BAS",
         "course_type": "M",
-        "category": "BAS"
+        "level": 1
     },
     {
-        "course_code": "CS102",
-        "course_name": "Data Structures and Algorithms",
-        "credit_hours": 4,
-        "department_code": "CS",
-        "course_type": "M",
-        "category": "BAS"
-    },
-    {
-        "course_code": "CS201",
-        "course_name": "Database Systems",
+        "course_code": "BAS102",
+        "course_name": "Discrete Mathematics",
         "credit_hours": 3,
-        "department_code": "CS",
+        "department_code": "BAS",
         "course_type": "M",
-        "category": "COM"
+        "level": 1
     },
     {
-        "course_code": "CS202",
+        "course_code": "BAS104",
+        "course_name": "Statistics and Probabilities",
+        "credit_hours": 3,
+        "department_code": "BAS",
+        "course_type": "M",
+        "level": 1
+    },
+    {
+        "course_code": "COM101",
+        "course_name": "Introduction to Computers",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 1
+    },
+    {
+        "course_code": "COM102",
+        "course_name": "Fundamentals of Information Systems",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 1
+    },
+    {
+        "course_code": "GEN102",
+        "course_name": "English II",
+        "credit_hours": 2,
+        "department_code": "GEN",
+        "course_type": "M",
+        "level": 2
+    },
+    {
+        "course_code": "GEN115",
+        "course_name": "Professional Ethics",
+        "credit_hours": 2,
+        "department_code": "GEN",
+        "course_type": "E",
+        "level": 2
+    },
+    {
+        "course_code": "GEN113",
+        "course_name": "Creative Thinking",
+        "credit_hours": 2,
+        "department_code": "GEN",
+        "course_type": "E",
+        "level": 2
+    },
+    {
+        "course_code": "BAS103",
+        "course_name": "Physics",
+        "credit_hours": 3,
+        "department_code": "BAS",
+        "course_type": "M",
+        "level": 2
+    },
+    {
+        "course_code": "BAS203",
+        "course_name": "Fundamentals of Management",
+        "credit_hours": 3,
+        "department_code": "BAS",
+        "course_type": "E",
+        "level": 2
+    },
+    {
+        "course_code": "COM104",
+        "course_name": "Logic Design",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 2
+    },
+    {
+        "course_code": "COM103",
+        "course_name": "Programming",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 2
+    },
+    {
+        "course_code": "BAS201",
+        "course_name": "Electronics",
+        "credit_hours": 3,
+        "department_code": "BAS",
+        "course_type": "M",
+        "level": 3
+    },
+    {
+        "course_code": "BAS202",
+        "course_name": "Advanced Statistics and Probabilities",
+        "credit_hours": 3,
+        "department_code": "BAS",
+        "course_type": "E",
+        "level": 3
+    },
+    {
+        "course_code": "COM202",
+        "course_name": "Algorithms",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 3
+    },
+    {
+        "course_code": "COM203",
+        "course_name": "Database System",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 3
+    },
+    {
+        "course_code": "COM204",
+        "course_name": "Computer Networks",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 3
+    },
+    {
+        "course_code": "COM205",
         "course_name": "Operating Systems",
         "credit_hours": 3,
-        "department_code": "CS",
+        "department_code": "COM",
         "course_type": "M",
-        "category": "COM"
+        "level": 3
     },
     {
-        "course_code": "CS301",
-        "course_name": "Software Engineering",
-        "credit_hours": 3,
-        "department_code": "CS",
-        "course_type": "M",
-        "category": "DSC"
-    },
-    {
-        "course_code": "CS302",
-        "course_name": "Machine Learning",
-        "credit_hours": 3,
-        "department_code": "CS",
-        "course_type": "E",
-        "category": "DSC"
-    },
-    {
-        "course_code": "CS401",
-        "course_name": "Artificial Intelligence",
-        "credit_hours": 3,
-        "department_code": "CS",
-        "course_type": "E",
-        "category": "DSC"
-    },
-    {
-        "course_code": "MATH101",
-        "course_name": "Calculus I",
-        "credit_hours": 3,
-        "department_code": "MATH",
-        "course_type": "M",
-        "category": "BAS"
-    },
-    {
-        "course_code": "MATH102",
-        "course_name": "Calculus II",
-        "credit_hours": 3,
-        "department_code": "MATH",
-        "course_type": "M",
-        "category": "BAS"
-    },
-    {
-        "course_code": "MATH201",
+        "course_code": "BAS204",
         "course_name": "Linear Algebra",
         "credit_hours": 3,
-        "department_code": "MATH",
-        "course_type": "M",
-        "category": "BAS"
+        "department_code": "BAS",
+        "course_type": "E",
+        "level": 4
     },
     {
-        "course_code": "ENG101",
-        "course_name": "English Composition",
+        "course_code": "COM206",
+        "course_name": "System Analysis and Design",
         "credit_hours": 3,
-        "department_code": "ENG",
+        "department_code": "COM",
         "course_type": "M",
-        "category": "GEN"
+        "level": 4
     },
     {
-        "course_code": "ENG102",
-        "course_name": "Technical Writing",
+        "course_code": "COM207",
+        "course_name": "Data Structures",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "M",
+        "level": 4
+    },
+    {
+        "course_code": "COM209",
+        "course_name": "Internet Technology",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "E",
+        "level": 4
+    },
+    {
+        "course_code": "COM212",
+        "course_name": "Artificial Intelligence",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "E",
+        "level": 4
+    },
+    {
+        "course_code": "COM210",
+        "course_name": "Advanced Programming",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "E",
+        "level": 4
+    },
+    {
+        "course_code": "COM213",
+        "course_name": "Advanced Programming (Robotics variant)",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "E",
+        "level": 4
+    },
+    {
+        "course_code": "ROB301",
+        "course_name": "Pattern Recognition",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "ROB302",
+        "course_name": "Real-time Systems",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "ROB303",
+        "course_name": "Micro Processors",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "ROB304",
+        "course_name": "Computer Architecture",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "ROB305",
+        "course_name": "Machine Learning",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "ROB312",
+        "course_name": "Virtual Reality",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "E",
+        "level": 5
+    },
+    {
+        "course_code": "ROB306",
+        "course_name": "Neural Networks",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "ROB307",
+        "course_name": "Parallel Processing",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "ROB308",
+        "course_name": "Automatic Control",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "ROB310",
+        "course_name": "Embedded Systems",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "ROB411",
+        "course_name": "Computer Vision",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "ROB313",
+        "course_name": "Computer Networks and Information Security",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "ROB401",
+        "course_name": "Robot Design",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "ROB402",
+        "course_name": "Robot Arms",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "ROB405",
+        "course_name": "Natural Language Processing",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "COM400",
+        "course_name": "Graduation Project 1",
+        "credit_hours": 3,
+        "department_code": "COM",
+        "course_type": "G",
+        "level": 7
+    },
+    {
+        "course_code": "ROB311",
+        "course_name": "Robotics Selected Topics",
+        "credit_hours": 3,
+        "department_code": "ROB",
+        "course_type": "E",
+        "level": 7
+    },
+    {
+        "course_code": "GEN317",
+        "course_name": "Problem Solving & Decision-making Skills",
         "credit_hours": 2,
-        "department_code": "ENG",
-        "course_type": "M",
-        "category": "GEN"
+        "department_code": "GEN",
+        "course_type": "E",
+        "level": 7
     },
     {
-        "course_code": "PHY101",
-        "course_name": "Physics I",
+        "course_code": "ROB403",
+        "course_name": "Sensors and Actuators",
         "credit_hours": 3,
-        "department_code": "PHY",
+        "department_code": "ROB",
         "course_type": "M",
-        "category": "BAS"
+        "level": 8
     },
     {
-        "course_code": "PHY102",
-        "course_name": "Physics II",
+        "course_code": "ROB404",
+        "course_name": "Mobile Robots",
         "credit_hours": 3,
-        "department_code": "PHY",
+        "department_code": "ROB",
         "course_type": "M",
-        "category": "BAS"
+        "level": 8
     },
     {
-        "course_code": "IS101",
-        "course_name": "Information Systems Fundamentals",
+        "course_code": "COM498",
+        "course_name": "Graduation Project 2",
         "credit_hours": 3,
-        "department_code": "IS",
-        "course_type": "M",
-        "category": "BAS"
+        "department_code": "COM",
+        "course_type": "G",
+        "level": 8
     },
     {
-        "course_code": "IS201",
-        "course_name": "Systems Analysis and Design",
+        "course_code": "COM499",
+        "course_name": "Practical Training - 2",
+        "credit_hours": 0,
+        "department_code": "COM",
+        "course_type": "G",
+        "level": 8
+    },
+    {
+        "course_code": "ROB413",
+        "course_name": "Speech Processing",
         "credit_hours": 3,
-        "department_code": "IS",
+        "department_code": "ROB",
+        "course_type": "E",
+        "level": 8
+    },
+    {
+        "course_code": "DSC301",
+        "course_name": "Advanced Database",
+        "credit_hours": 3,
+        "department_code": "DSC",
         "course_type": "M",
-        "category": "COM"
+        "level": 5
+    },
+    {
+        "course_code": "DSC302",
+        "course_name": "Data Management",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "DSC303",
+        "course_name": "Database Security",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "DSC309",
+        "course_name": "Machine Learning",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "DSC311",
+        "course_name": "Basic of AI Programming Skills",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "E",
+        "level": 5
+    },
+    {
+        "course_code": "DSC307",
+        "course_name": "Data Analysis Algorithms",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "DSC304",
+        "course_name": "Practical Data Mining",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "DSC305",
+        "course_name": "Introduction to Big Data",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "DSC306",
+        "course_name": "R and Python Programming Language",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "DSC312",
+        "course_name": "Neural Networks and Deep Learning",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "DSC313",
+        "course_name": "Technology of Crypto Currencies",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "DSC308",
+        "course_name": "Data Visualization",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "DSC401",
+        "course_name": "Hadoop and Apache Spark Essentials",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "DSC402",
+        "course_name": "Information Modelling",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "DSC404",
+        "course_name": "Knowledge Base Management Systems",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "DSC411",
+        "course_name": "Reinforcement Learning",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "E",
+        "level": 7
+    },
+    {
+        "course_code": "DSC412",
+        "course_name": "Data Wrangling",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "E",
+        "level": 7
+    },
+    {
+        "course_code": "DSC403",
+        "course_name": "Big Data Analysis",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 8
+    },
+    {
+        "course_code": "DSC405",
+        "course_name": "Practical Data Science",
+        "credit_hours": 3,
+        "department_code": "DSC",
+        "course_type": "M",
+        "level": 8
+    },
+    {
+        "course_code": "MMD301",
+        "course_name": "Introduction to Art and Design",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "MMD302",
+        "course_name": "Web Design",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "MMD303",
+        "course_name": "Foundations of Digital Graphic Design",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "MMD307",
+        "course_name": "Multimedia Programming",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 5
+    },
+    {
+        "course_code": "MMD311",
+        "course_name": "Selected Topics in Media Arts and Technology",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 5
+    },
+    {
+        "course_code": "MMD313",
+        "course_name": "Drawing Studio",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 5
+    },
+    {
+        "course_code": "MMD308",
+        "course_name": "Multimedia Design",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "MMD309",
+        "course_name": "Computer Aided Design",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "MMD306",
+        "course_name": "HCI and Applications",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 6
+    },
+    {
+        "course_code": "MMD315",
+        "course_name": "Game Programming",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "MMD312",
+        "course_name": "Introduction to Digital Music",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 6
+    },
+    {
+        "course_code": "MMD410",
+        "course_name": "Advanced Multimedia Programming",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "MMD402",
+        "course_name": "Digital Photography and Media Production",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "MMD403",
+        "course_name": "Introduction to 2D Animation",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 7
+    },
+    {
+        "course_code": "MMD414",
+        "course_name": "Introduction to Video Graphics",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 7
+    },
+    {
+        "course_code": "MMD404",
+        "course_name": "Introduction to 3D Modeling and Animation",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 8
+    },
+    {
+        "course_code": "MMD407",
+        "course_name": "Typography and Layout",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "M",
+        "level": 8
+    },
+    {
+        "course_code": "MMD409",
+        "course_name": "Virtual Reality and Tele-Presence",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 8
+    },
+    {
+        "course_code": "MMD408",
+        "course_name": "Image and Video Processing",
+        "credit_hours": 3,
+        "department_code": "MMD",
+        "course_type": "E",
+        "level": 8
     }
 ]
