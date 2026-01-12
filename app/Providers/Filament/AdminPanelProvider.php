@@ -48,6 +48,8 @@ class AdminPanelProvider extends PanelProvider
                 FilamentShieldPlugin::make(),
                 // ActivitylogPlugin::make(), // Temporarily disabled due to compatibility issue
             ])
+            ->databaseNotifications()
+            ->databaseNotificationsPolling('30s')
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,

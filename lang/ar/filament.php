@@ -333,4 +333,25 @@ return [
         'first_attempt' => 'المحاولة الأولى',
     ],
 
+    // Bulk Import Messages
+    'bulk_import' => [
+        'title' => 'استيراد/تحديث الطلاب بكميات كبيرة',
+        'description' => 'رفع ملف Excel لاستيراد أو تحديث بيانات الطلاب. الأعمدة المطلوبة: student_id، full_name_arabic، cgpa، earned_credit_hours، studied_credit_hours، actual_credit_hours، total_points',
+        'submit_button' => 'بدء الاستيراد',
+        'cancel_button' => 'إلغاء',
+        'department_label' => 'القسم',
+        'department_help' => 'حدد القسم للطلاب الجدد',
+        'level_label' => 'المستوى الأكاديمي الحالي',
+        'level_help' => 'اختياري: قم بتعيين المستوى الأكاديمي للطلاب الجدد',
+        'file_label' => 'ملف Excel',
+        'file_help' => 'الصيغ المدعومة: .xls، .xlsx',
+        'started' => 'بدأ الاستيراد',
+        'started_message' => 'يتم معالجة ملفك. سيتم إخطارك عند الانتهاء.',
+        'completed' => 'تم استيراد الطلاب بنجاح',
+        'completed_message' => 'تم الإنشاء: :created، تم التحديث: :updated',
+        'errors_count' => 'الأخطاء: :count',
+        'failed' => 'فشل استيراد الطلاب',
+        'file_not_found' => 'لم يتم العثور على الملف. يرجى محاولة التحميل مرة أخرى.',
+    ],
+
 ];
