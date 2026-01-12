@@ -17,12 +17,14 @@ return new class extends Migration
             $table->string('course_name', 200);
             $table->integer('credit_hours');
             $table->unsignedBigInteger('department_id')->nullable();
+            $table->unsignedBigInteger('level_id');
             $table->enum('course_type', ['M', 'E', 'G']);
-            $table->enum('category', ['GEN', 'BAS', 'COM', 'DSC', 'MMD', 'RSE']);
+            $table->enum('category', ['GEN', 'BAS', 'COM', 'DSC', 'MMD', 'ROB']);
             $table->timestamp('created_at')->useCurrent();
 
             // Foreign key
             $table->foreign('department_id')->references('department_id')->on('departments')->onDelete('set null');
+            $table->foreign('level_id')->references('level_id')->on('academic_levels')->onDelete('cascade');
         });
     }
 

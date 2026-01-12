@@ -354,4 +354,21 @@ return [
         'file_not_found' => 'لم يتم العثور على الملف. يرجى محاولة التحميل مرة أخرى.',
     ],
 
+    // Grades Import Messages
+    'grades_import' => [
+        'title' => 'استيراد درجات الطلاب بكميات كبيرة',
+        'description' => 'رفع ملف Excel لاستيراد أو تحديث درجات الطلاب في المقررات. الأعمدة المطلوبة: STUDENT_ID، STUDENT_NAME، YEAR، SEMESTER، COURSE_TITLE، MARKS، GRADE_PERCENT، GRADE_LETTER، POINTS، CREDIT_HOURS، ACT_CREDIT_HOURS، COMMENT',
+        'submit_button' => 'بدء الاستيراد',
+        'cancel_button' => 'إلغاء',
+        'file_label' => 'ملف Excel',
+        'file_help' => 'الصيغ المدعومة: .xls، .xlsx. عناوين المقررات يجب أن تكون بالصيغة: "ABC 123-اسم المقرر"',
+        'started' => 'بدأ الاستيراد',
+        'started_message' => 'يتم معالجة ملفك. سيتم إخطارك عند الانتهاء.',
+        'completed' => 'تم استيراد الدرجات بنجاح',
+        'completed_message' => 'التسجيلات المنشأة: :created، المحدثة: :updated، الدرجات المعالجة: :grades',
+        'errors_count' => 'الأخطاء: :count',
+        'failed' => 'فشل استيراد الدرجات',
+        'file_not_found' => 'لم يتم العثور على الملف. يرجى محاولة التحميل مرة أخرى.',
+    ],
+
 ];

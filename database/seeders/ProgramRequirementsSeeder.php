@@ -18,7 +18,7 @@ class ProgramRequirementsSeeder extends Seeder
         foreach ($programRequirements as $requirement) {
             // Get department_id from department_code
             $department = \DB::table('departments')
-                ->where('department_code', $requirement['department_code'])
+                ->where('department_code', $requirement['program_code'])
                 ->first();
 
             // Get course_id from course_code
@@ -28,7 +28,7 @@ class ProgramRequirementsSeeder extends Seeder
 
             // Get level_id from level_number
             $level = \DB::table('academic_levels')
-                ->where('level_number', $requirement['level_number'])
+                ->where('level_number', $requirement['level'])
                 ->first();
 
             if ($department && $course && $level) {

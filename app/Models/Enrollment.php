@@ -16,6 +16,7 @@ class Enrollment extends Model
         'status',
         'is_retake',
         'grade_points',
+        'comment',
     ];
 
     protected $casts = [
@@ -39,4 +40,10 @@ class Enrollment extends Model
     {
         return $this->belongsTo(Semester::class, 'semester_id', 'semester_id');
     }
+
+    public function courseGrade()
+    {
+        return $this->hasOne(StudentCourseGrade::class, 'enrollment_id', 'enrollment_id');
+    }
 }
+

@@ -22,8 +22,11 @@ class CoursesSeeder extends Seeder
                 ->first();
 
             $course['department_id'] = $department ? $department->department_id : null;
-            unset($course['department_code']);
 
+            if (isset($course['department_code'])) {
+                $course['category'] = $course['department_code'];
+                unset($course['department_code']);
+            }
             \DB::table('courses')->insert($course);
         }
     }

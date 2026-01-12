@@ -333,4 +333,21 @@ return [
         'first_attempt' => 'First Attempt',
     ],
 
+    // Grades Import Messages
+    'grades_import' => [
+        'title' => 'Bulk Import Student Grades',
+        'description' => 'Upload an Excel file to import or update student course grades. Required columns: STUDENT_ID, STUDENT_NAME, YEAR, SEMESTER, COURSE_TITLE, MARKS, GRADE_PERCENT, GRADE_LETTER, POINTS, CREDIT_HOURS, ACT_CREDIT_HOURS, COMMENT',
+        'submit_button' => 'Start Import',
+        'cancel_button' => 'Cancel',
+        'file_label' => 'Excel File',
+        'file_help' => 'Supported formats: .xls, .xlsx. Course titles should be in format: "ABC 123-Course Name"',
+        'started' => 'Import Started',
+        'started_message' => 'Your file is being processed. You will be notified when complete.',
+        'completed' => 'Grades Imported Successfully',
+        'completed_message' => 'Enrollments Created: :created, Updated: :updated, Grades Processed: :grades',
+        'errors_count' => 'Errors: :count',
+        'failed' => 'Grades Import Failed',
+        'file_not_found' => 'File not found. Please try uploading again.',
+    ],
+
 ];

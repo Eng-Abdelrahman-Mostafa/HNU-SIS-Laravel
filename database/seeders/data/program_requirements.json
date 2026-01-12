@@ -4,287 +4,287 @@
         "course_code": "GEN101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "GEN103",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS104",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "GEN102",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM104",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "GEN115",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "GEN113",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS203",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS201",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM202",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM203",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM204",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM205",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS202",
         "level": 3,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "BAS204",
         "level": 4,
         "semester": 1,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "COM206",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM207",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "COM209",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "COM212",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "COM213",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB301",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB302",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB303",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB304",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB305",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB312",
         "level": 5,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB306",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB307",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB308",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB310",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB411",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB313",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB401",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB402",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB405",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
@@ -298,28 +298,28 @@
         "course_code": "ROB311",
         "level": 7,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "GEN317",
         "level": 7,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB403",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
         "course_code": "ROB404",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "ROB",
@@ -340,294 +340,294 @@
         "course_code": "ROB413",
         "level": 8,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "GEN101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "GEN103",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "BAS101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "BAS102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "BAS104",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "GEN102",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM104",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "BAS103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "GEN115",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "GEN113",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "BAS203",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "BAS201",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM202",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM203",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM204",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM205",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "BAS202",
         "level": 3,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "BAS204",
         "level": 4,
         "semester": 1,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "COM206",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM207",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "COM209",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "COM212",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "COM210",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC301",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC302",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC303",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC309",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC311",
         "level": 5,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC307",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC304",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC305",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC306",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC312",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC313",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC308",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC401",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC402",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC404",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
@@ -641,28 +641,28 @@
         "course_code": "DSC411",
         "level": 7,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC412",
         "level": 7,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "DS",
         "course_code": "DSC403",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
         "course_code": "DSC405",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "DS",
@@ -683,294 +683,294 @@
         "course_code": "GEN317",
         "level": 8,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN103",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS104",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM101",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM102",
         "level": 1,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN102",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM104",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS103",
         "level": 2,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN115",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN113",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS203",
         "level": 2,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS201",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM202",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM203",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM204",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM205",
         "level": 3,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS202",
         "level": 3,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "BAS204",
         "level": 4,
         "semester": 1,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "COM206",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM207",
         "level": 4,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "COM209",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "COM212",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "COM210",
         "level": 4,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD301",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD302",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD303",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD307",
         "level": 5,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD311",
         "level": 5,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD313",
         "level": 5,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD308",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD309",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD306",
         "level": 6,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD315",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD312",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "GEN317",
         "level": 6,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD410",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD402",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD403",
         "level": 7,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
@@ -984,21 +984,21 @@
         "course_code": "MMD414",
         "level": 7,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD404",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD407",
         "level": 8,
         "semester": 1,
-        "requirement_type": "M"
+        "requirement_type": "mandatory"
     },
     {
         "program_code": "MMD",
@@ -1019,13 +1019,13 @@
         "course_code": "MMD409",
         "level": 8,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     },
     {
         "program_code": "MMD",
         "course_code": "MMD408",
         "level": 8,
         "semester": 2,
-        "requirement_type": "E"
+        "requirement_type": "elective"
     }
 ]

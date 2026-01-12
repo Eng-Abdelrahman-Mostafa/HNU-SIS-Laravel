@@ -21,9 +21,9 @@ class PrerequisitesSeeder extends Seeder
                 ->where('course_code', $prerequisite['course_code'])
                 ->first();
 
-            // Get prerequisite_course_id from prerequisite_course_code
+            // Get prerequisite_course_id from prerequisite_code
             $prereqCourse = \DB::table('courses')
-                ->where('course_code', $prerequisite['prerequisite_course_code'])
+                ->where('course_code', $prerequisite['prerequisite_code'])
                 ->first();
 
             if ($course && $prereqCourse) {

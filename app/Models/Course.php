@@ -17,6 +17,7 @@ class Course extends Model
         'department_id',
         'course_type',
         'category',
+        'level_id',
     ];
 
     // Relationships
@@ -48,5 +49,9 @@ class Course extends Model
     public function courseInstructorAssignments()
     {
         return $this->hasMany(CourseInstructorAssignment::class, 'course_id', 'course_id');
+    }
+    public function level()
+    {
+        return $this->belongsTo(AcademicLevel::class, 'level_id', 'level_id');
     }
 }

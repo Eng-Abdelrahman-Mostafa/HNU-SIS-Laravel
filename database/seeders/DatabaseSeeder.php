@@ -27,10 +27,12 @@ class DatabaseSeeder extends Seeder
             CourseInstructorAssignmentsSeeder::class,
         ]);
 
-        // User::factory(10)->create();
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+
+        $super_admin=User::factory()->create([
+            'name' => 'System Admin',
+            'email' => 'admin@admin.com',
+            'password' => bcrypt('password'),
         ]);
+        $super_admin->assignRole('super_admin');
     }
 }
