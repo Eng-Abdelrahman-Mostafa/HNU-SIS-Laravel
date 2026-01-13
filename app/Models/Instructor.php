@@ -20,6 +20,10 @@ class Instructor extends Model
         'department_id',
         'title',
         'status',
+        'password_hash',
+    ];
+    protected $hidden = [
+        'password_hash',
     ];
 
     // Relationships
