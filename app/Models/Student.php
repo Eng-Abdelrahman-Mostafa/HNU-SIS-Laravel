@@ -2,10 +2,16 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Hash;
 
-class Student extends Model
+class Student extends Authenticatable implements FilamentUser
 {
+    use Notifiable;
+
     protected $primaryKey = 'student_id';
 
     public $incrementing = false;
@@ -35,6 +41,29 @@ class Student extends Model
         'cgpa' => 'decimal:2',
         'total_points' => 'decimal:2',
     ];
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        return $panel->getId() === 'student';
+    }
+
+    public function getAuthPassword(): string
+    {
+        return $this->password_hash ?? '';
+    }
+
+    public function setPasswordHashAttribute(?string $value): void
+    {
+        if ($value === null || $value === '') {
+            $this->attributes['password_hash'] = $value;
+
+            return;
+        }
+
+        $this->attributes['password_hash'] = Hash::needsRehash($value)
+            ? Hash::make($value)
+            : $value;
+    }
 
     // Relationships
     public function department()

@@ -371,4 +371,40 @@ return [
         'file_not_found' => 'لم يتم العثور على الملف. يرجى محاولة التحميل مرة أخرى.',
     ],
 
+    // Dashboard
+    'dashboard' => [
+        'quick_actions' => 'إجراءات سريعة',
+        'quick_actions_description' => 'انتقل بسرعة إلى الأقسام الأكثر استخدامًا.',
+        'actions' => [
+            'students' => 'الطلاب',
+            'students_description' => 'إدارة سجلات الطلاب',
+            'enrollments' => 'التسجيلات',
+            'enrollments_description' => 'مراجعة وإدارة التسجيلات',
+            'courses' => 'المقررات',
+            'courses_description' => 'تصفح وتحرير المقررات',
+            'semesters' => 'الفصول الدراسية',
+            'semesters_description' => 'إدارة الفصول الدراسية',
+            'departments' => 'الأقسام',
+            'departments_description' => 'إدارة الأقسام',
+        ],
+        'stats' => [
+            'total_students' => 'إجمالي الطلاب',
+            'total_departments' => 'إجمالي الأقسام',
+            'active_semester' => 'الفصل النشط',
+            'active_semester_enrollments' => 'تسجيلات الفصل النشط',
+            'top_student_status' => 'أكثر حالة للطلاب',
+        ],
+        'registration_window' => 'فترة التسجيل',
+        'semester' => 'الفصل الدراسي',
+        'starts' => 'يبدأ',
+        'ends' => 'ينتهي',
+        'open_now' => 'مفتوح الآن',
+        'yes' => 'نعم',
+        'no' => 'لا',
+        'not_set' => 'غير محدد',
+        'not_available' => 'غير متاح',
+        'no_active_semester' => 'لا يوجد فصل نشط',
+        'enrollments_last_14_days' => 'التسجيلات (آخر 14 يومًا)',
+    ],
+
 ];

@@ -350,4 +350,40 @@ return [
         'file_not_found' => 'File not found. Please try uploading again.',
     ],
 
+    // Dashboard
+    'dashboard' => [
+        'quick_actions' => 'Quick Actions',
+        'quick_actions_description' => 'Jump to common areas of the system.',
+        'actions' => [
+            'students' => 'Students',
+            'students_description' => 'Manage student records',
+            'enrollments' => 'Enrollments',
+            'enrollments_description' => 'Review and manage enrollments',
+            'courses' => 'Courses',
+            'courses_description' => 'Browse and edit courses',
+            'semesters' => 'Semesters',
+            'semesters_description' => 'Manage academic terms',
+            'departments' => 'Departments',
+            'departments_description' => 'Manage departments',
+        ],
+        'stats' => [
+            'total_students' => 'Total Students',
+            'total_departments' => 'Total Departments',
+            'active_semester' => 'Active Semester',
+            'active_semester_enrollments' => 'Active Semester Enrollments',
+            'top_student_status' => 'Top Student Status',
+        ],
+        'registration_window' => 'Registration Window',
+        'semester' => 'Semester',
+        'starts' => 'Starts',
+        'ends' => 'Ends',
+        'open_now' => 'Open now',
+        'yes' => 'Yes',
+        'no' => 'No',
+        'not_set' => 'Not set',
+        'not_available' => 'n/a',
+        'no_active_semester' => 'No active semester',
+        'enrollments_last_14_days' => 'Enrollments (Last 14 Days)',
+    ],
+
 ];
