@@ -171,20 +171,20 @@
                                 @endphp
 
                                 <div class="relative group">
-                                    <input
-                                        type="checkbox"
-                                        wire:model.live="selectedCourses"
-                                        value="{{ $course->course_id }}"
-                                        id="course-{{ $course->course_id }}"
-                                        class="peer sr-only"
-                                    >
-                                    <label for="course-{{ $course->course_id }}" class="flex cursor-pointer">
+                                    <label class="relative flex cursor-pointer">
+                                        <input
+                                            type="checkbox"
+                                            wire:model.live="selectedCourses"
+                                            value="{{ $course->course_id }}"
+                                            id="course-{{ $course->course_id }}"
+                                            class="peer sr-only"
+                                        >
                                         <div class="flex-1 border-2 border-gray-200 dark:border-gray-700 rounded-xl p-4 transition-all bg-white dark:bg-gray-800
                                                     peer-checked:border-emerald-500 peer-checked:bg-gradient-to-br peer-checked:from-emerald-50 peer-checked:to-teal-50
                                                     dark:peer-checked:from-emerald-900/20 dark:peer-checked:to-teal-900/20 dark:peer-checked:border-emerald-400
                                                     hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md">
 
-                                            {{-- Header with checkbox indicator --}}
+                                            {{-- Header --}}
                                             <div class="flex items-start justify-between mb-3">
                                                 <div class="flex-1">
                                                     <div class="flex items-center gap-2 mb-1">
@@ -198,15 +198,6 @@
                                                     <p class="text-xs text-gray-600 dark:text-gray-400 line-clamp-2">
                                                         {{ $course->course_name }}
                                                     </p>
-                                                </div>
-                                                <div class="flex-shrink-0 ml-2">
-                                                    <div class="w-5 h-5 rounded border-2 border-gray-300 dark:border-gray-600 flex items-center justify-center
-                                                                peer-checked:border-emerald-500 peer-checked:bg-emerald-500 dark:peer-checked:border-emerald-400
-                                                                dark:peer-checked:bg-emerald-400 transition-all">
-                                                        <svg class="w-3 h-3 text-white hidden peer-checked:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                                        </svg>
-                                                    </div>
                                                 </div>
                                             </div>
 
@@ -237,6 +228,13 @@
                                                     </div>
                                                 @endif
                                             </div>
+                                        </div>
+                                        <div class="absolute right-4 top-4 w-5 h-5 rounded border-2 border-gray-300 dark:border-gray-600 flex items-center justify-center
+                                                    peer-checked:border-emerald-500 peer-checked:bg-emerald-500 dark:peer-checked:border-emerald-400
+                                                    dark:peer-checked:bg-emerald-400 transition-all">
+                                            <svg class="w-3 h-3 text-white hidden peer-checked:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                            </svg>
                                         </div>
                                     </label>
                                 </div>
