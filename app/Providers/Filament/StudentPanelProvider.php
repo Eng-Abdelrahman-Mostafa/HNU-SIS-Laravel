@@ -3,6 +3,7 @@
 namespace App\Providers\Filament;
 
 use App\Filament\Student\Pages\Auth\Login as StudentLogin;
+use App\Filament\Student\Pages\CourseRegistration;
 use App\Filament\Student\Pages\Dashboard as StudentDashboard;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
@@ -26,8 +27,10 @@ class StudentPanelProvider extends PanelProvider
             ->path('student')
             ->login(StudentLogin::class)
             ->authGuard('student')
+            ->viteTheme('resources/css/filament/student/theme.css')
             ->pages([
                 StudentDashboard::class,
+                CourseRegistration::class,
             ])
             ->middleware([
                 EncryptCookies::class,

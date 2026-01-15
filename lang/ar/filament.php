@@ -407,4 +407,88 @@ return [
         'enrollments_last_14_days' => 'التسجيلات (آخر 14 يومًا)',
     ],
 
+    // Course Registration
+    'course_registration' => [
+        'title' => 'تسجيل المقررات',
+        'heading' => 'تسجيل المقررات - :semester :year',
+        'no_active_semester' => 'لا يوجد فصل دراسي نشط',
+        'no_active_semester_description' => 'لا يوجد حاليًا فصل دراسي نشط. تسجيل المقررات غير متاح في الوقت الحالي. يرجى الاتصال بمرشدك الأكاديمي للحصول على مزيد من المعلومات.',
+        'registration_closed' => 'فترة التسجيل مغلقة',
+        'registration_closed_description' => 'تسجيل المقررات لـ :semester :year مغلق حاليًا.',
+        'registration_opens' => 'يبدأ التسجيل',
+        'registration_closes' => 'ينتهي التسجيل',
+        'registration_ends' => 'ينتهي التسجيل',
+        'not_set' => 'غير محدد',
+
+        // Blocking Reasons
+        'blocking_reasons_title' => 'أسباب المنع',
+        'missing_prerequisites' => 'متطلبات سابقة مفقودة: :prerequisites.',
+        'already_enrolled' => 'أنت مسجل بالفعل في هذا المقرر للفصل الدراسي الحالي.',
+        'already_completed' => 'لقد أكملت هذا المقرر بالفعل بتقدير :grade. إعادة المقررات الناجحة غير مسموح بها.',
+        'not_available' => 'المقرر غير متاح في الفصل الدراسي الحالي.',
+        'registration_not_configured' => 'فترة التسجيل غير محددة لهذا الفصل الدراسي.',
+        'registration_not_started' => 'فترة التسجيل لم تبدأ بعد. يبدأ التسجيل في :date.',
+        'registration_ended' => 'انتهت فترة التسجيل. أغلق التسجيل في :date.',
+        'department_restricted' => 'هذا المقرر مقتصر على طلاب قسم :department.',
+        'level_department_restricted' => 'كطالب في :level، أنت مقيد بالمقررات ضمن قسمك (:department). هذا يضمن التركيز على متطلبات قسمك.',
+        'course_limit_reached' => 'تم الوصول إلى الحد الأقصى للمقررات. بمعدل تراكمي :cgpa، يمكنك التسجيل في حد أقصى :max مقررات. مسجل حاليًا في :count مقررات.',
+
+        // Registration Information
+        'registration_info' => 'معلومات التسجيل',
+        'your_cgpa' => 'معدلك التراكمي',
+        'max_courses_allowed' => 'الحد الأقصى للمقررات المسموحة',
+        'currently_enrolled' => 'المسجل حاليًا',
+        'remaining_slots' => 'الأماكن المتبقية',
+
+        // Available Courses
+        'available_courses' => 'المقررات المتاحة',
+        'available_courses_description' => 'اختر المقررات التي تريد التسجيل فيها لهذا الفصل الدراسي. يمكنك اختيار ما يصل إلى :max مقررات.',
+        'unavailable_courses' => 'المقررات غير المتاحة',
+        'unavailable_courses_description' => 'المقررات التالية غير متاحة للتسجيل للأسباب المدرجة.',
+        'no_available_courses' => 'لا توجد مقررات متاحة للتسجيل في الوقت الحالي.',
+        'no_unavailable_courses' => 'جميع المقررات متاحة للتسجيل.',
+
+        // Course Card
+        'credit_hours_short' => 'س.م',
+        'sections' => 'الشعب',
+        'section' => 'الشعبة',
+        'instructor' => 'المدرس',
+        'blocking_reasons' => 'أسباب المنع',
+        'select_course' => 'اختر هذا المقرر',
+
+        // Actions
+        'register_courses' => 'تسجيل المقررات المختارة',
+        'drop_course' => 'حذف المقرر',
+        'cancel' => 'إلغاء',
+
+        // My Registered Courses
+        'my_registered_courses' => 'مقرراتي المسجلة',
+        'my_registered_courses_description' => 'فيما يلي المقررات المسجلة حاليًا لهذا الفصل الدراسي.',
+        'no_registered_courses' => 'لا توجد مقررات مسجلة',
+        'no_registered_courses_description' => 'لم تقم بالتسجيل في أي مقررات بعد.',
+
+        // Messages
+        'no_courses_selected' => 'لم يتم اختيار مقررات',
+        'no_courses_selected_description' => 'يرجى اختيار مقرر واحد على الأقل للتسجيل.',
+        'minimum_courses_required' => 'الحد الأدنى من المقررات مطلوب',
+        'minimum_courses_required_description' => 'يجب عليك اختيار :required مقررات على الأقل. لقد اخترت :selected مقررات فقط.',
+        'must_select_minimum' => 'يجب عليك اختيار :required مقررات على الأقل',
+        'selected_count' => 'المختار: :count من :required مطلوب',
+        'course_limit_exceeded' => 'تم تجاوز حد المقررات',
+        'course_limit_exceeded_description' => 'يمكنك التسجيل فقط في :max مقررات. لقد اخترت :total مقررات في المجموع.',
+        'registration_successful' => 'تم التسجيل بنجاح',
+        'registration_failed' => 'فشل التسجيل',
+        'course_dropped' => 'تم حذف المقرر',
+        'drop_failed' => 'فشل الحذف',
+        'confirm_drop' => 'هل أنت متأكد من أنك تريد حذف هذا المقرر؟',
+
+        // Status
+        'enrolled' => 'مسجل',
+        'pending' => 'قيد الانتظار',
+        'dropped' => 'محذوف',
+        'retake' => 'إعادة',
+        'yes' => 'نعم',
+        'no' => 'لا',
+    ],
+
 ];

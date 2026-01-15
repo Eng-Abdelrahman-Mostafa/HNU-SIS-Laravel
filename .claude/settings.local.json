@@ -26,7 +26,9 @@
       "Bash(find:*)",
       "WebFetch(domain:filamentphp.com)",
       "Bash(timeout 10 php artisan serve:*)",
-      "Bash(composer dump-autoload:*)"
+      "Bash(composer dump-autoload:*)",
+      "WebFetch(domain:medium.com)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []

@@ -3,12 +3,13 @@
 namespace App\Models;
 
 use Filament\Models\Contracts\FilamentUser;
+use Filament\Models\Contracts\HasName;
 use Filament\Panel;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
 
-class Student extends Authenticatable implements FilamentUser
+class Student extends Authenticatable implements FilamentUser, HasName
 {
     use Notifiable;
 
@@ -47,6 +48,11 @@ class Student extends Authenticatable implements FilamentUser
         return $panel->getId() === 'student';
     }
 
+    public function getFilamentName(): string
+    {
+        return $this->full_name_arabic ?? $this->student_id ?? 'Student';
+    }
+
     public function getAuthPassword(): string
     {
         return $this->password_hash ?? '';
@@ -79,5 +85,40 @@ class Student extends Authenticatable implements FilamentUser
     public function enrollments()
     {
         return $this->hasMany(Enrollment::class, 'student_id', 'student_id');
+    }
+
+    // Helper methods for course registration
+    public function getMaxAllowedCourses(): int
+    {
+        $cgpa = $this->cgpa ?? 0;
+
+        if ($cgpa <= 1) {
+            return 4;
+        } elseif ($cgpa > 1 && $cgpa < 2) {
+            return 5;
+        } elseif ($cgpa >= 2 && $cgpa < 3) {
+            return 6;
+        } else {
+            return 7;
+        }
+    }
+
+    public function getEnrollmentsForSemester(int $semesterId)
+    {
+        return $this->enrollments()
+            ->where('semester_id', $semesterId)
+            ->where('status', '!=', 'dropped')
+            ->get();
+    }
+
+    public function getCompletedCourses()
+    {
+        return \App\Models\StudentCourseGrade::whereHas('enrollment', function ($query) {
+            $query->where('student_id', $this->student_id);
+        })
+            ->whereNotIn('grade_letter', ['F', 'DN', 'W'])
+            ->with('enrollment.course')
+            ->get()
+            ->pluck('enrollment.course');
     }
 }

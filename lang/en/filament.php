@@ -386,4 +386,88 @@ return [
         'enrollments_last_14_days' => 'Enrollments (Last 14 Days)',
     ],
 
+    // Course Registration
+    'course_registration' => [
+        'title' => 'Course Registration',
+        'heading' => 'Course Registration - :semester :year',
+        'no_active_semester' => 'No Active Semester',
+        'no_active_semester_description' => 'There is currently no active semester. Course registration is not available at this time. Please contact your academic advisor for more information.',
+        'registration_closed' => 'Registration Period Closed',
+        'registration_closed_description' => 'Course registration for :semester :year is currently closed.',
+        'registration_opens' => 'Registration Opens',
+        'registration_closes' => 'Registration Closes',
+        'registration_ends' => 'Registration Ends',
+        'not_set' => 'Not set',
+
+        // Blocking Reasons
+        'blocking_reasons_title' => 'Blocking Reasons',
+        'missing_prerequisites' => 'Missing prerequisites: :prerequisites.',
+        'already_enrolled' => 'You are already enrolled in this course for the current semester.',
+        'already_completed' => 'You have already completed this course with grade :grade. Retaking is not allowed for passing grades.',
+        'not_available' => 'Course is not available in the current semester.',
+        'registration_not_configured' => 'Registration period not configured for this semester.',
+        'registration_not_started' => 'Registration period has not started yet. Registration opens on :date.',
+        'registration_ended' => 'Registration period has ended. Registration closed on :date.',
+        'department_restricted' => 'This course is restricted to students in the :department department.',
+        'level_department_restricted' => 'As a :level student, you are restricted to courses within your department (:department). This ensures focus on your department requirements.',
+        'course_limit_reached' => 'Course limit reached. With CGPA of :cgpa, you can register for a maximum of :max courses. Currently enrolled in :count courses.',
+
+        // Registration Information
+        'registration_info' => 'Registration Information',
+        'your_cgpa' => 'Your CGPA',
+        'max_courses_allowed' => 'Max Courses Allowed',
+        'currently_enrolled' => 'Currently Enrolled',
+        'remaining_slots' => 'Remaining Slots',
+
+        // Available Courses
+        'available_courses' => 'Available Courses',
+        'available_courses_description' => 'Select the courses you want to register for this semester. You can select up to :max courses.',
+        'unavailable_courses' => 'Unavailable Courses',
+        'unavailable_courses_description' => 'The following courses are not available for registration due to the reasons listed.',
+        'no_available_courses' => 'No courses available for registration at this time.',
+        'no_unavailable_courses' => 'All courses are available for registration.',
+
+        // Course Card
+        'credit_hours_short' => 'CH',
+        'sections' => 'Sections',
+        'section' => 'Section',
+        'instructor' => 'Instructor',
+        'blocking_reasons' => 'Blocking Reasons',
+        'select_course' => 'Select this course',
+
+        // Actions
+        'register_courses' => 'Register Selected Courses',
+        'drop_course' => 'Drop Course',
+        'cancel' => 'Cancel',
+
+        // My Registered Courses
+        'my_registered_courses' => 'My Registered Courses',
+        'my_registered_courses_description' => 'Below are the courses you are currently registered for this semester.',
+        'no_registered_courses' => 'No Courses Registered',
+        'no_registered_courses_description' => 'You have not registered for any courses yet.',
+
+        // Messages
+        'no_courses_selected' => 'No Courses Selected',
+        'no_courses_selected_description' => 'Please select at least one course to register.',
+        'minimum_courses_required' => 'Minimum Courses Required',
+        'minimum_courses_required_description' => 'You must select at least :required courses. You have selected only :selected courses.',
+        'must_select_minimum' => 'You must select at least :required courses',
+        'selected_count' => 'Selected: :count of :required required',
+        'course_limit_exceeded' => 'Course Limit Exceeded',
+        'course_limit_exceeded_description' => 'You can only register for :max courses. You have selected :total courses in total.',
+        'registration_successful' => 'Registration Successful',
+        'registration_failed' => 'Registration Failed',
+        'course_dropped' => 'Course Dropped',
+        'drop_failed' => 'Drop Failed',
+        'confirm_drop' => 'Are you sure you want to drop this course?',
+
+        // Status
+        'enrolled' => 'Enrolled',
+        'pending' => 'Pending',
+        'dropped' => 'Dropped',
+        'retake' => 'Retake',
+        'yes' => 'Yes',
+        'no' => 'No',
+    ],
+
 ];

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('password_hash', 255)->nullable();
             $table->string('phone', 20)->nullable();
             $table->unsignedBigInteger('department_id')->nullable();
-            $table->enum('title', ['Dr.', 'Prof.', 'Lecturer', 'TA'])->nullable();
+            $table->string('title')->nullable();
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamp('created_at')->useCurrent();
 
