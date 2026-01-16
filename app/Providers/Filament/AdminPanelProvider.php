@@ -34,9 +34,13 @@ class AdminPanelProvider extends PanelProvider
             ->login()
             ->authGuard('web')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Blue,
             ])
             ->favicon(fn () => asset('images/favicon.ico'))
+            ->brandName(__('filament.hnu_full_name'))
+            ->brandLogo(fn() => asset('images/logo-small.png'))
+            ->brandLogoHeight(0.0001)
+            ->databaseNotificationsPolling(30)
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')
             ->pages([

@@ -28,10 +28,13 @@ class StudentPanelProvider extends PanelProvider
             ->authGuard('student')
             ->viteTheme('resources/css/filament/student/theme.css')
             ->favicon(fn () => asset('images/favicon.ico'))
+            ->brandLogo(fn() => asset('images/logo.png'))
+            ->brandName(__('filament.hnu_full_name'))
             ->homeUrl(fn () => route('filament.student.pages.course-registration'))
             ->pages([
                 CourseRegistration::class,
             ])
+
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,

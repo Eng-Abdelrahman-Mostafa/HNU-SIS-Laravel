@@ -11,6 +11,7 @@ return [
     |
     */
 
+    'hnu_full_name' => 'Helwan National University',
     // Sections
     'sections' => [
         'department_information' => 'Department Information',

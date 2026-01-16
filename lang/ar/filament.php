@@ -11,6 +11,8 @@ return [
     |
     */
 
+    'hnu_full_name' => 'جامعة حلوان الأهلية',
+
     // Sections
     'sections' => [
         'department_information' => 'معلومات القسم',
