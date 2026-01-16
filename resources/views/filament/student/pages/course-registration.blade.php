@@ -168,10 +168,15 @@
                                 @php
                                     $course = $item['course'];
                                     $sections = collect($item['sections']);
+                                    $courseTypeKey = 'filament.course_type.' . $course->course_type;
+                                    $courseTypeLabel = __($courseTypeKey);
+                                    if ($courseTypeLabel === $courseTypeKey) {
+                                        $courseTypeLabel = $course->course_type;
+                                    }
                                 @endphp
 
                                 <div class="relative group">
-                                    <label class="relative flex cursor-pointer">
+                                    <label class="flex cursor-pointer">
                                         <input
                                             type="checkbox"
                                             wire:model.live="selectedCourses"
@@ -209,6 +214,12 @@
                                                         {{ $course->credit_hours }} {{ __('filament.course_registration.credit_hours_short') }}
                                                     </span>
                                                 </div>
+                                                <div class="flex items-center gap-1.5 px-2 py-1 bg-emerald-100 dark:bg-emerald-900/30 rounded-md w-fit">
+                                                    <x-heroicon-o-tag class="w-3 h-3 text-emerald-600 dark:text-emerald-400" />
+                                                    <span class="text-emerald-700 dark:text-emerald-300 font-semibold">
+                                                        {{ __('filament.field.course_type') }}: {{ $courseTypeLabel }}
+                                                    </span>
+                                                </div>
 
                                                 @if ($sections->isNotEmpty())
                                                     <div class="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
@@ -228,13 +239,6 @@
                                                     </div>
                                                 @endif
                                             </div>
-                                        </div>
-                                        <div class="absolute right-4 top-4 w-5 h-5 rounded border-2 border-gray-300 dark:border-gray-600 flex items-center justify-center
-                                                    peer-checked:border-emerald-500 peer-checked:bg-emerald-500 dark:peer-checked:border-emerald-400
-                                                    dark:peer-checked:bg-emerald-400 transition-all">
-                                            <svg class="w-3 h-3 text-white hidden peer-checked:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                                            </svg>
                                         </div>
                                     </label>
                                 </div>

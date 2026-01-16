@@ -302,8 +302,9 @@ return [
         'theory' => 'Theory',
         'practical' => 'Practical',
         'mixed' => 'Mixed',
-        'M' => 'Mixed',
+        'M' => 'Mandatory',
         'E' => 'Elective',
+        'G' => 'Graduation',
     ],
 
     // Course Categories
