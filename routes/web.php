@@ -4,7 +4,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController as StudentLoginController;
 use App\Http\Controllers\Admin\Auth\LoginController as AdminLoginController;
-use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\Admin\ImportController;
 use App\Http\Controllers\Admin\CurriculumController; // <-- ADD THIS
 
@@ -15,19 +14,13 @@ use App\Http\Controllers\Admin\CurriculumController; // <-- ADD THIS
 */
 
 // --- STUDENT Authentication Routes ---
-Route::middleware('guest:student')->group(function () {
-    Route::get('/', [StudentLoginController::class, 'showLoginForm'])->name('login');
-    Route::get('login', [StudentLoginController::class, 'showLoginForm'])->name('login.form');
-    Route::post('login', [StudentLoginController::class, 'login'])->name('login.post');
-});
+Route::get('/', fn () => redirect()->route('filament.student.auth.login'))->name('login');
+Route::get('login', fn () => redirect()->route('filament.student.auth.login'))->name('login.form');
+Route::post('login', [StudentLoginController::class, 'login'])->name('login.post');
 Route::post('logout', [StudentLoginController::class, 'logout'])->name('logout');
 
 
 // --- STUDENT Authenticated Routes ---
-Route::middleware(['auth:student'])->group(function () {
-    Route::get('/registration', [RegistrationController::class, 'index'])->name('registration.index');
-    Route::post('/registration', [RegistrationController::class, 'store'])->name('registration.store');
-});
 
 
 // --- ADMIN Authentication Routes ---

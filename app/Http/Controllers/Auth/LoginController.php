@@ -27,7 +27,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/registration';
+    protected $redirectTo = '/student/course-registration';
 
     /**
      * Create a new controller instance.
@@ -37,7 +37,7 @@ class LoginController extends Controller
     public function __construct()
     {
         // The 'middleware' method is available because we extend 'Controller'
-        $this->middleware('guest:student')->except('logout');
+        $this->middleware('guest:student')->except(['logout', 'showLoginForm']);
     }
 
     /**
@@ -85,8 +85,8 @@ class LoginController extends Controller
         // If successful, regenerate the session
         $request->session()->regenerate();
 
-        // Redirect to the intended student registration page
-        return redirect()->intended(route('registration.index'));
+        // Redirect to the student panel course registration page
+        return redirect()->route('filament.student.pages.course-registration');
     }
 
     /**
@@ -108,5 +108,3 @@ class LoginController extends Controller
         return redirect(route('login.form'));
     }
 }
-
-

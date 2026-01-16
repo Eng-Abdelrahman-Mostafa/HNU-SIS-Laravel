@@ -31,7 +31,7 @@ class RedirectIfAuthenticated
 
                 if ($guard === 'student') {
                     // If a student is logged in, redirect to student dashboard
-                    return redirect(route('registration.index'));
+                    return redirect(route('filament.student.pages.course-registration'));
                 }
 
                 // Default fallback - REPLACED 'RouteServiceProvider::HOME'
@@ -42,6 +42,5 @@ class RedirectIfAuthenticated
         return $next($request);
     }
 }
-
 
 
