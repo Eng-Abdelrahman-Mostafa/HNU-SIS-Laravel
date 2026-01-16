@@ -27,6 +27,7 @@ class StudentPanelProvider extends PanelProvider
             ->login(StudentLogin::class)
             ->authGuard('student')
             ->viteTheme('resources/css/filament/student/theme.css')
+            ->favicon(fn () => asset('images/favicon.ico'))
             ->homeUrl(fn () => route('filament.student.pages.course-registration'))
             ->pages([
                 CourseRegistration::class,
