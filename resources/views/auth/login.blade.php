@@ -3,7 +3,7 @@
 
 @section('content')
 <div class="relative min-h-screen bg-cover bg-center" style="background-image: url('{{ asset('images/HNU.jpg') }}');">
-    <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-black/55 to-emerald-900/40"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-black/55 to-blue-900/40"></div>
 
     <div class="relative z-10 mx-auto flex min-h-screen w-full max-w-6xl items-center px-6 py-12">
         <div class="grid w-full grid-cols-1 gap-10 lg:grid-cols-[1.1fr_0.9fr]">
@@ -35,7 +35,7 @@
                         <h2 class="text-2xl font-semibold text-slate-900">{{ __('auth.login.title') }}</h2>
                         <p class="mt-1 text-sm text-slate-500">{{ __('auth.login.subtitle') }}</p>
                     </div>
-                    <div class="hidden h-14 w-14 rounded-2xl bg-emerald-50 p-2 sm:block">
+                    <div class="hidden h-14 w-14 rounded-2xl bg-blue-50 p-2 sm:block">
                         <img src="{{ asset('images/logo.png') }}" alt="HNU Logo" class="h-full w-full object-contain">
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         </label>
                         <div class="mt-2">
                             <input id="student_id" name="student_id" type="text" required
-                                   class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 shadow-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+                                   class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
                                    value="{{ old('student_id') }}">
                         </div>
                         @error('student_id')
@@ -63,7 +63,7 @@
                         </label>
                         <div class="mt-2">
                             <input id="password" name="password" type="password" required
-                                   class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 shadow-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200">
+                                   class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200">
                         </div>
                         @error('password')
                             <p class="mt-2 text-sm text-red-600">{{ $message }}</p>
@@ -72,13 +72,13 @@
 
                     <div class="flex items-center justify-between">
                         <label class="inline-flex items-center gap-2 text-sm text-slate-600">
-                            <input type="checkbox" name="remember" class="h-4 w-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-200" {{ old('remember') ? 'checked' : '' }}>
+                            <input type="checkbox" name="remember" class="h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-200" {{ old('remember') ? 'checked' : '' }}>
                             {{ __('auth.login.remember') }}
                         </label>
                     </div>
 
                     <button type="submit"
-                            class="w-full rounded-xl bg-emerald-700 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-emerald-700/20 transition hover:bg-emerald-800 focus:outline-none focus:ring-2 focus:ring-emerald-200">
+                            class="w-full rounded-xl bg-blue-700 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-200">
                         {{ __('auth.login.sign_in') }}
                     </button>
                 </form>
