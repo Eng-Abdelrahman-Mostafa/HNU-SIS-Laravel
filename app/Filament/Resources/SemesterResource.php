@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\SemesterResource\Pages;
+use App\Jobs\ProcessEnrollmentsExport;
 use App\Models\Semester;
 use Filament\Forms;
 use Filament\Resources\Resource;
@@ -13,6 +14,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use Filament\Notifications\Notification;
 
 class SemesterResource extends Resource
 {
@@ -180,6 +182,29 @@ class SemesterResource extends Resource
                 //
             ])
             ->recordActions([
+                Action::make('export_enrollments')
+                    ->icon('heroicon-o-arrow-down-tray')
+                    ->label(fn () => __('filament.table_actions.export_enrollments'))
+                    ->action(function (Semester $record) {
+                        // Dispatch the export job
+                        ProcessEnrollmentsExport::dispatch(
+                            $record->semester_id,
+                            auth()->id()
+                        );
+
+                        // Show immediate feedback
+                        Notification::make()
+                            ->title(__('filament.enrollments_export.processing'))
+                            ->body(__('filament.enrollments_export.processing_message'))
+                            ->info()
+                            ->send();
+                    })
+                    ->requiresConfirmation()
+                    ->modalHeading(fn () => __('filament.table_actions.export_enrollments'))
+                    ->modalDescription(fn (Semester $record) => __('filament.enrollments_export.confirmation_message', [
+                        'semester' => $record->semester_name
+                    ]))
+                    ->modalSubmitActionLabel(fn () => __('filament.common.export')),
                 Action::make('edit')
                     ->icon('heroicon-o-pencil-square')
                     ->label(fn () => __('filament.table_actions.edit'))

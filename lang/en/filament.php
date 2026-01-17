@@ -113,6 +113,7 @@ return [
         'student_count' => 'Student Count',
         // Enrollment Fields
         'is_retake' => 'Is Retake',
+        'comment' => 'Comment',
     ],
 
     // Helper Text
@@ -287,6 +288,7 @@ return [
         'edit' => 'Edit',
         'view' => 'View',
         'delete' => 'Delete',
+        'export_enrollments' => 'Export Enrollments',
     ],
 
     // Status Values
@@ -386,6 +388,30 @@ return [
         'not_available' => 'n/a',
         'no_active_semester' => 'No active semester',
         'enrollments_last_14_days' => 'Enrollments (Last 14 Days)',
+    ],
+
+    // Common
+    'common' => [
+        'yes' => 'Yes',
+        'no' => 'No',
+        'export' => 'Export',
+        'download' => 'Download',
+    ],
+
+    // Enrollments Export
+    'enrollments_export' => [
+        'processing' => 'Export Started',
+        'processing_message' => 'Your enrollments report is being generated. You will be notified when it is ready for download.',
+        'completed' => 'Export Completed',
+        'completed_message' => 'Your enrollments report (:filename) is ready for download.',
+        'failed' => 'Export Failed',
+        'confirmation_message' => 'Are you sure you want to export enrollments for :semester? This will generate an Excel file with all enrollment records.',
+        'download' => 'Download Report',
+    ],
+
+    // Exports
+    'exports' => [
+        'enrollments_sheet_title' => 'Enrollments Report',
     ],
 
     // Course Registration

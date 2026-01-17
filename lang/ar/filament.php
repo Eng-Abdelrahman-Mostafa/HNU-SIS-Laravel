@@ -114,6 +114,7 @@ return [
         'student_count' => 'عدد الطلاب',
         // Enrollment Fields
         'is_retake' => 'إعادة',
+        'comment' => 'ملاحظة',
     ],
 
     // Helper Text
@@ -288,6 +289,7 @@ return [
         'edit' => 'تحرير',
         'view' => 'عرض',
         'delete' => 'حذف',
+        'export_enrollments' => 'تصدير التسجيلات',
     ],
 
     // Status Values
@@ -408,6 +410,30 @@ return [
         'not_available' => 'غير متاح',
         'no_active_semester' => 'لا يوجد فصل نشط',
         'enrollments_last_14_days' => 'التسجيلات (آخر 14 يومًا)',
+    ],
+
+    // Common
+    'common' => [
+        'yes' => 'نعم',
+        'no' => 'لا',
+        'export' => 'تصدير',
+        'download' => 'تحميل',
+    ],
+
+    // Enrollments Export
+    'enrollments_export' => [
+        'processing' => 'بدأ التصدير',
+        'processing_message' => 'يتم إنشاء تقرير التسجيلات. سيتم إخطارك عندما يكون جاهزًا للتحميل.',
+        'completed' => 'تم التصدير بنجاح',
+        'completed_message' => 'تقرير التسجيلات (:filename) جاهز للتحميل.',
+        'failed' => 'فشل التصدير',
+        'confirmation_message' => 'هل أنت متأكد من أنك تريد تصدير التسجيلات لـ :semester؟ سيتم إنشاء ملف Excel يحتوي على جميع سجلات التسجيل.',
+        'download' => 'تحميل التقرير',
+    ],
+
+    // Exports
+    'exports' => [
+        'enrollments_sheet_title' => 'تقرير التسجيلات',
     ],
 
     // Course Registration
