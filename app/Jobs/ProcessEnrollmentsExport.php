@@ -13,7 +13,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Storage;
 use Maatwebsite\Excel\Facades\Excel;
 use Filament\Notifications\Notification;
-use Filament\Notifications\Actions\Action;
+use Filament\Actions\Action;
 use Illuminate\Support\Facades\Log;
 
 class ProcessEnrollmentsExport implements ShouldQueue
@@ -56,10 +56,11 @@ class ProcessEnrollmentsExport implements ShouldQueue
             Log::info('Enrollments export completed', [
                 'semester_id' => $this->semesterId,
                 'file_path' => $filePath,
+                'filename' => $filename,
             ]);
 
             // Send success notification
-            $this->sendNotification($filename, $filePath);
+            $this->sendNotification($filename);
 
         } catch (\Exception $e) {
             Log::error('Enrollments export failed', [
@@ -72,7 +73,7 @@ class ProcessEnrollmentsExport implements ShouldQueue
         }
     }
 
-    protected function sendNotification(string $filename, string $filePath): void
+    protected function sendNotification(string $filename): void
     {
         $title = __('filament.enrollments_export.completed');
         $message = __('filament.enrollments_export.completed_message', ['filename' => $filename]);
@@ -81,6 +82,8 @@ class ProcessEnrollmentsExport implements ShouldQueue
             if ($this->userId) {
                 $user = User::find($this->userId);
                 if ($user) {
+                    $downloadUrl = route('admin.export.download', ['filename' => $filename]);
+
                     Notification::make()
                         ->title($title)
                         ->body($message)
@@ -88,7 +91,8 @@ class ProcessEnrollmentsExport implements ShouldQueue
                         ->actions([
                             Action::make('download')
                                 ->label(__('filament.enrollments_export.download'))
-                                ->url(Storage::disk('public')->url($filePath))
+                                ->url($downloadUrl)
+                                ->button()
                                 ->openUrlInNewTab()
                         ])
                         ->sendToDatabase($user);

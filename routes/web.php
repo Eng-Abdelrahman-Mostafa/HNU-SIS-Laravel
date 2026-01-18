@@ -46,6 +46,17 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:web'])->group(function
     // Student CSV Upload
     Route::post('/import/students', [ImportController::class, 'uploadStudentData'])->name('import.upload-students');
 
+    // Export Downloads
+    Route::get('/exports/{filename}', function ($filename) {
+        $filePath = storage_path('app/public/exports/' . $filename);
+
+        if (!file_exists($filePath)) {
+            abort(404);
+        }
+
+        return response()->download($filePath);
+    })->name('export.download')->where('filename', '.*\.xlsx');
+
     // Curriculum Management Routes
     Route::post('/curriculum/seed-static', [ImportController::class, 'seedStaticData'])->name('curriculum.seed-static');
     Route::post('/curriculum/department', [CurriculumController::class, 'storeDepartment'])->name('curriculum.store-department');
