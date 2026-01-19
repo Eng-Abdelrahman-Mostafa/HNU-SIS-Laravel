@@ -23,7 +23,7 @@
 
         .fi-fo-field-label {
             font-weight: 600;
-            color: #334155;
+            color: #ffffff;
         }
 
         .fi-input-wrp {
