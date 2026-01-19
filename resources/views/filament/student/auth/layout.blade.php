@@ -23,7 +23,17 @@
 
         .fi-fo-field-label {
             font-weight: 600;
-            color: #ffffff;
+            color: #334155;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .fi-fo-field-label {
+                color: #f1f5f9;
+            }
+        }
+
+        .dark .fi-fo-field-label {
+            color: #f1f5f9;
         }
 
         .fi-input-wrp {
