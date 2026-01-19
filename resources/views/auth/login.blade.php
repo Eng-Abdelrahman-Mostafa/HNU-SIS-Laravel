@@ -44,7 +44,7 @@
                 <form class="mt-8 space-y-6" action="{{ route('login.post') }}" method="POST">
                     @csrf
                     <div>
-                        <label for="student_id" class="block text-sm font-medium text-slate-700">
+                        <label for="student_id" class="block text-sm font-medium text-slate-900">
                             {{ __('auth.login.student_id') }}
                         </label>
                         <div class="mt-2">
@@ -58,7 +58,7 @@
                     </div>
 
                     <div>
-                        <label for="password" class="block text-sm font-medium text-slate-700">
+                        <label for="password" class="block text-sm font-medium text-slate-900">
                             {{ __('auth.login.password') }}
                         </label>
                         <div class="mt-2">
