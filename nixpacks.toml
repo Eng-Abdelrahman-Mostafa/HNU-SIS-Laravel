@@ -42,15 +42,13 @@ touch /app/storage/logs/laravel.log
 chmod 666 /app/storage/logs/laravel.log
 chown -R www-data:www-data /var/log /app/storage
 
-# Find the Redis and MBString extensions and create configuration files in the correct location
+# Find the Redis extension (mbstring is already built-in from nixPkgs)
 REDIS_PATH=$(find /nix/store -name "redis.so" | head -n 1)
-MBSTRING_PATH=$(find /nix/store -name "mbstring.so" | head -n 1)
 mkdir -p /nix/store/a0qcy2m5mqwrlkr3xkza0n2wdmbq8myq-php-with-extensions-8.2.27/lib
 echo "extension=$REDIS_PATH" > /nix/store/a0qcy2m5mqwrlkr3xkza0n2wdmbq8myq-php-with-extensions-8.2.27/lib/redis.ini
-echo "extension=$MBSTRING_PATH" > /nix/store/a0qcy2m5mqwrlkr3xkza0n2wdmbq8myq-php-with-extensions-8.2.27/lib/mbstring.ini
-echo "Added Redis and MBString extension configuration at the correct location" > /var/log/extensions-config.log
+echo "Added Redis extension configuration at the correct location" > /var/log/extensions-config.log
 
-# Verify extensions are now loaded
+# Verify extensions are loaded
 php -m | grep -E "(redis|mbstring)" > /var/log/php-extensions-check.log
 
 # Start supervisor with direct extension loading as backup
@@ -95,7 +93,7 @@ stderr_logfile=/var/log/worker-nginx.log
 "worker-phpfpm.conf" = '''
 [program:worker-phpfpm]
 process_name=%(program_name)s_%(process_num)02d
-command=bash -c 'REDIS_PATH=$(find /nix/store -name "redis.so" | head -n 1); MBSTRING_PATH=$(find /nix/store -name "mbstring.so" | head -n 1); php-fpm -y /etc/php-fpm.conf -d "extension=$REDIS_PATH" -d "extension=$MBSTRING_PATH" -F'
+command=bash -c 'REDIS_PATH=$(find /nix/store -name "redis.so" | head -n 1); php-fpm -y /etc/php-fpm.conf -d "extension=$REDIS_PATH" -F'
 autostart=true
 autorestart=true
 stopasgroup=true
@@ -107,12 +105,12 @@ stderr_logfile=/var/log/worker-phpfpm.log
 "worker-laravel.conf" = '''
 [program:worker-laravel]
 process_name=%(program_name)s_%(process_num)02d
-command=bash -c 'REDIS_PATH=$(find /nix/store -name "redis.so" | head -n 1); MBSTRING_PATH=$(find /nix/store -name "mbstring.so" | head -n 1); exec php -d "extension=$REDIS_PATH" -d "extension=$MBSTRING_PATH" /app/artisan queue:work --sleep=3 --tries=3 --max-time=3600'
+command=bash -c 'REDIS_PATH=$(find /nix/store -name "redis.so" | head -n 1); exec php -d "extension=$REDIS_PATH" /app/artisan queue:work --sleep=3 --tries=3 --max-time=3600'
 autostart=true
 autorestart=true
 stopasgroup=true
 killasgroup=true
-numprocs=12
+numprocs=4
 startsecs=0
 stopwaitsecs=3600
 stdout_logfile=/var/log/worker-laravel.log
